@@ -3,4 +3,4 @@ Installation instructions for the Stan parallel framework.
 
 
 
-()[INSTALL_CMDSTANR.md]
+()[install_docs/INSTALL_CMDSTANR.md]
