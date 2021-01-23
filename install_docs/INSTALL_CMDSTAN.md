@@ -11,8 +11,10 @@ If using a NVIDIA device, install the NVIDIA CUDA toolkit and clinfo tool.
 
 ```
 apt update
-apt install nvidia-cuda-toolkit clinfo
+apt install nvidia-drivers-460 nvidia-cuda-toolkit clinfo
 ```
+
+Replace the driver version (`460` in the above case) with the latest version.
 
 If you have an AMD GPU, install the Radeon Open Computer platform (ROCm). Instructions can be found [here](https://rocm-documentation.readthedocs.io/en/latest/Installation_Guide/Installation-Guide.html).
 
